@@ -1,0 +1,35 @@
+#card {
+  width: 150px;
+  height: 100px;
+  min-width: 150px;
+  min-height: 100px;
+  border-radius: 10px;
+  
+  background-color: #05185C;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 5px;
+
+  text-decoration: none;
+  border-width: 0;
+  border-color:  #05185C;
+  border-style: solid;
+
+  
+  transition-property: border-width, border-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+#card:hover {
+  border-width: 20px;
+  border-color: #EC08F1;
+}
+
+#card p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
