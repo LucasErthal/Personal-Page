@@ -10,6 +10,10 @@ body {
   color: #FFF;
   align-items: center;
   justify-content: center;
+  background-image: url(.../../../assets/images/city.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body, input, button, textarea {

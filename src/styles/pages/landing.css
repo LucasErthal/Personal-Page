@@ -53,18 +53,18 @@
 }
 
 #landing-page .description-container .Description {
+  display: flex;
   font-size: 16px;
   font-weight: 400px;
+  text-align: center;
+  align-items: center;
 }
 
 #landing-page .cards-container {
-  margin-top: 20px;
-  display: flex;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   border-radius: 10px;
-  width: 100%;
-  flex-direction: row;
-  justify-content: center;
-  height: 300px;
   overflow-x: auto;
 }
 
@@ -72,9 +72,16 @@
   #landing-page {
     width: 100vw;
   }
+}
 
+@media screen and (max-width: 480px) {
   #landing-page .cards-container {
-    justify-content: flex-start;
+    width: 100%;
+  }
+
+  #landing-page .description-container .Description {
+    display: flex;
+    text-align: center;
   }
 }
 

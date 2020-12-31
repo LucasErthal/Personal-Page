@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/components/card.css';
 
 interface CardProps {
@@ -7,9 +8,9 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({name, path}) => {
   return (
-    <a id='card' href={path}>
+    <Link id='card' to={path}>
       <p>{name}</p>
-    </a>
+    </Link>
   );
 }
 

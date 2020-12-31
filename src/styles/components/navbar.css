@@ -1,0 +1,103 @@
+#navbar {
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+
+  position: fixed;
+  z-index: 2;
+
+  background-image: linear-gradient(329.54deg, #506BC2 0%, #9F27EB 100%);
+
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: initial;
+
+  border-bottom: 5px solid rgba(60, 63, 66, 0.3);
+}
+
+#navbar .logo {
+  width: 40px;
+}
+
+#navbar .link {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+
+  margin: 0px 10px 0px 10px;
+}
+
+#navbar .link:hover {
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+#navbar .menu-button {
+  width: 50px;
+  background-color: transparent;
+  border-color: transparent;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-container {
+  display: flex;
+  width: 500px;
+  height: 150px;
+
+  flex-direction: column;
+
+  position: fixed;
+  left: 65.3%;
+  top: 60px;
+
+ background-color: #506BC2;
+
+ z-index: 2;
+}
+
+#menu-container .link {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+
+  margin: 5px 10px 5px 10px;
+}
+
+#menu-container .link:hover {
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+@media screen and (max-width: 1030px) {
+  #navbar {
+    justify-content: space-between;
+  }
+
+  #navbar .link {
+    display: none;
+  }
+
+  #navbar .menu-button {
+    display: flex;
+  }
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
