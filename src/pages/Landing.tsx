@@ -17,8 +17,8 @@ function Landing() {
       </div>
 
       <div className="cards-container">
-        <Card name='Sobre mim' path='/AboutMe' />
-        <Card name='Projetos' path='/Projetos' />
+        <Card name='Sobre mim' path='/About' />
+        <Card name='Projetos' path='/Projects' />
         <Card name='Cursos' path='/Projetos' />
       </div>
     </div>

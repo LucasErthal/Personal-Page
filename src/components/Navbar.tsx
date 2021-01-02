@@ -16,7 +16,6 @@ function Navbar() {
 
   function MenuButtonClicked() {
     setIsMenuButtonClicked(!isMenuButtonClicked);
-    console.log(isMenuButtonClicked);
   }
 
   return (
@@ -25,9 +24,9 @@ function Navbar() {
         <img className='logo' src={Logo} alt="" />
 
         <Link to='/' className='link' ><span>Início</span></Link>
-        <Link to='/AboutMe' className='link'><span>Sobre mim</span></Link>
-        <Link to='/AboutMe' className='link'><span>Projetos</span></Link>
-        <Link to='/AboutMe' className='link'><span>Cursos</span></Link>
+        <Link to='/About' className='link'><span>Sobre mim</span></Link>
+        <Link to='/Projects' className='link'><span>Projetos</span></Link>
+        <Link to='/' className='link'><span>Cursos</span></Link>
         <button 
           onMouseEnter={MenuButtonFocus} 
           onMouseLeave={MenuButtonFocus}
@@ -39,11 +38,14 @@ function Navbar() {
       </div>
 
       {isMenuButtonClicked &&
-        <div   id='menu-container'>
+        <div id='menu-container'>
           <Link to='/' className='link' ><span>Início</span></Link>
-          <Link to='/AboutMe' className='link'><span>Sobre mim</span></Link>
-          <Link to='/AboutMe' className='link'><span>Projetos</span></Link>
-          <Link to='/AboutMe' className='link'><span>Cursos</span></Link>
+          <Link to='/About' className='link'><span>Sobre mim</span></Link>
+          <Link to='/Projects' className='link'><span>Projetos</span></Link>
+          <Link to='/' className='link'><span>Cursos</span></Link>
+          <button className='close-button'onClick={MenuButtonClicked}>
+            Fechar
+          </button>
         </div>
       }
     </>

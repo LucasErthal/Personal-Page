@@ -14,11 +14,6 @@
 
   background-image: linear-gradient(329.54deg, #506BC2 0%, #9F27EB 100%);
 
-  animation-name: drop;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: initial;
-
   border-bottom: 5px solid rgba(60, 63, 66, 0.3);
 }
 
@@ -48,10 +43,13 @@
   justify-content: center;
 }
 
+#navbar .menu-button:hover {
+  cursor: pointer;
+}
+
 #menu-container {
   display: flex;
   width: 500px;
-  height: 150px;
 
   flex-direction: column;
 
@@ -75,6 +73,25 @@
 #menu-container .link:hover {
   text-decoration-line: underline;
   text-decoration-color: white;
+}
+
+#menu-container .close-button {
+  display: flex;
+  background: transparent;
+  margin: 5px 10px 5px 10px;
+
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+
+  margin: 0px 10px 0px 10px;
+
+  border: none;
+}
+
+#menu-container .close-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1030px) {

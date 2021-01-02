@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  background: #212529;
+  background: #0D1117;
   color: #FFF;
   align-items: center;
   justify-content: center;
@@ -18,4 +18,15 @@ body {
 
 body, input, button, textarea {
   font: 60 18px  Nunito, sans-serif;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
 }
