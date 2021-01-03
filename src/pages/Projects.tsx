@@ -2,6 +2,8 @@ import Navbar from '../components/Navbar';
 import '../styles/pages/projects.css';
 
 import ColetaAmiga from '../components/Projects/ColetaAmiga';
+import PersonalPage from '../components/Projects/PersonalPage';
+
 import { useState } from 'react';
 
 function Projects() {
@@ -26,9 +28,7 @@ function Projects() {
 
         <div className="projects-list">
           <button onClick={ () => {SwapProject(0)}}>Coleta Amiga</button>
-          <button onClick={ () => {SwapProject(1)}}>Personal Web</button>
-          <button onClick={ () => {SwapProject(1)}}>Teste</button>
-          
+          <button onClick={ () => {SwapProject(1)}}>Personal Page</button>
         </div>
         
         {coletaAmigaIsVisible &&
@@ -36,7 +36,7 @@ function Projects() {
         }
 
         {minhaPáginaIsVisible &&
-          null
+          <PersonalPage />
         }
        
       </div>

@@ -6,7 +6,7 @@ import Logo from '../assets/images/logo3.svg';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-function Navbar() {
+const Navbar: React.FC = () => {
   const [isMenuButtonFocused, setIsMenuButtonFocused] = useState(false);
   const [isMenuButtonClicked, setIsMenuButtonClicked] = useState(false);
 

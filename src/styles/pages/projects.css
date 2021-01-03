@@ -14,7 +14,6 @@
 }
 
 #projects-page .projects-list {
-  width: 100%;
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -51,7 +50,7 @@
 }
 
 #projects-page .projects-list button:hover {
-  border-width: 20px;
+  border-width: 15px;
   border-color: #9F27EB;
 }
 
@@ -64,6 +63,10 @@
 
 @media screen and (max-width: 560px) {
   #projects-page {
-    padding: 15% 5% 5% 5%;
+    padding: 15% 3% 3% 3%;
+  }
+
+  #projects-page .projects-list {
+    width: 100%;
   }
 }

@@ -44,7 +44,7 @@ function AboutMe() {
           <p>
             Com base no que aprendi nesse evento, trabalhei como freelancer no desenvolvimento de uma aplicação
             para TCC utilizando React Native chamada Coleta Amiga, que consistia em facilitar o acesso de pessoas
-            á locais de reciclagem, com cadastro de usuários e empresas, e exibindo a localidade e rota para os locais no google maps
+            á locais de reciclagem, com cadastro de usuários e empresas, e exibindo a localidade e rota para os locais no maps
             utilizando google API.
         </p>
         </div>
