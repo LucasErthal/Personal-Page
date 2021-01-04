@@ -16,7 +16,7 @@
 #projects-page .projects-list {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   border-radius: 10px;
   overflow-x: auto;
 }

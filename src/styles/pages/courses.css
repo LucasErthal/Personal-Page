@@ -1,0 +1,27 @@
+#courses-page {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 3% 3% 3%;
+  background-color: #3C3F42;
+
+  animation-name: drop;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: initial;
+}
+
+@media screen and (max-width: 1030px) {
+  #courses-page {
+    width: 100vw;
+    padding: 10% 3% 3% 3%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #courses-page {
+    padding: 15% 5% 5% 5%;
+  }
+}

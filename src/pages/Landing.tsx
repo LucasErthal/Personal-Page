@@ -19,7 +19,7 @@ function Landing() {
       <div className="cards-container">
         <Card name='Sobre mim' path='/About' />
         <Card name='Projetos' path='/Projects' />
-        <Card name='Cursos' path='/Projetos' />
+        <Card name='Cursos' path='/Courses' />
       </div>
     </div>
   );

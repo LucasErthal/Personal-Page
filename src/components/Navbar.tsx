@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
         <Link to='/' className='link' ><span>Início</span></Link>
         <Link to='/About' className='link'><span>Sobre mim</span></Link>
         <Link to='/Projects' className='link'><span>Projetos</span></Link>
-        <Link to='/' className='link'><span>Cursos</span></Link>
+        <Link to='/Courses' className='link'><span>Cursos</span></Link>
         <button 
           onMouseEnter={MenuButtonFocus} 
           onMouseLeave={MenuButtonFocus}
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
           <Link to='/' className='link' ><span>Início</span></Link>
           <Link to='/About' className='link'><span>Sobre mim</span></Link>
           <Link to='/Projects' className='link'><span>Projetos</span></Link>
-          <Link to='/' className='link'><span>Cursos</span></Link>
+          <Link to='/Courses' className='link'><span>Cursos</span></Link>
           <button className='close-button'onClick={MenuButtonClicked}>
             Fechar
           </button>
