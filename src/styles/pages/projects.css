@@ -47,6 +47,8 @@
   transition-property: border-width, border-color;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
+
+  
 }
 
 #projects-page .projects-list button:hover {
