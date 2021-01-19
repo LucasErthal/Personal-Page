@@ -1,0 +1,26 @@
+#quantum-page {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 10% 0% 10% 0%;
+
+  animation-name: drop;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: initial;
+}
+
+#quantum-page img {
+  width:240px;
+
+  align-self: center;
+
+  margin: 3% 0% 3% 0%;
+}
+
+#quantum-page h3 {
+  margin: 10% 0% 5% 0%;
+  text-align: center;
+}
