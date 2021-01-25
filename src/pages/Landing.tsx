@@ -3,7 +3,6 @@ import profileImg from '../assets/images/Lucas_Perfil.jpg';
 import { FaReact } from "react-icons/fa";
 
 import '../styles/pages/landing.css';
-import "react-multi-carousel/lib/styles.css";
 
 function Landing() {
   return (
@@ -18,9 +17,7 @@ function Landing() {
       </div>
 
       <div 
-        className="cards-container" 
-        data-flickity-options='{ "wrapAround": true }'
-      >
+        className="cards-container" >
         <Card name='Sobre mim' path='/About' />
         <Card name='Projetos' path='/Projects' />
         <Card name='Cursos' path='/Courses' />
