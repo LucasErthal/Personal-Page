@@ -16,7 +16,8 @@ const PersonalPage: React.FC = () => {
 
       <p>
         Este projeto foi feito em ReactJS utilizando typescript.
-        pretendo utilizar a hospedagem AWS.
+        Por enquanto, estou usando a hospedagem da Netlify, que consome a brench master do repositório
+        do Github. Pretendo migrar para a hospedagem AWS posteriormente.
       </p>
 
       <h3>Para vizualisar o projeto completo, acesse:</h3>

@@ -8,7 +8,7 @@ function AboutMe() {
 
       <div id="aboutme-page">
         <h1>Sobre mim</h1>
-        <div className="basic-info">
+        <div className="section">
           <h2>Informações básicas</h2>
           <p>Formação: Análise e Desenvolvimento de Sistemas</p>
           <p>Instituição: Universidade Estácio de Sá</p>
@@ -17,7 +17,27 @@ function AboutMe() {
           <p>Whatsapp: (21) 98848-1631</p>
         </div>
 
-        <div className="info">
+        <div className="section">
+          <h2>Objetivos</h2>
+
+          <p>
+            Pretendo atuar como desenvolvedor Estagiário/Júnior afim de desenvolver
+            minha carreira como profissional, aprimorar meus conhecimentos sobre programação e
+            desenvolver práticas de trabalho com uma equipe igualmente focada.
+          </p>
+        </div>
+
+        <div className="section">
+          <h2>Interesses</h2>
+          <ul>
+            <li>Amazon Web Services</li>
+            <li>Domain-Driven Design com React</li>
+            <li>Clean Architecture</li>
+            <li>NextJS</li>
+          </ul>
+        </div>
+
+        <div className="section">
           <h2>Como cheguei até aqui?</h2>
           <p>
             Comecei a estudar programação seriamente em meados de 2019,

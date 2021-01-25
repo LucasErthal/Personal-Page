@@ -1,8 +1,9 @@
 import Card from '../components/Card'
-import profileImg from '../assets/images/Lucas_Perfil.jpg'
+import profileImg from '../assets/images/Lucas_Perfil.jpg';
 import { FaReact } from "react-icons/fa";
 
-import '../styles/pages/landing.css'
+import '../styles/pages/landing.css';
+import "react-multi-carousel/lib/styles.css";
 
 function Landing() {
   return (
@@ -13,10 +14,13 @@ function Landing() {
 
       <h1 className='Name'>Lucas de Oliveira Mattos Erthal</h1>
       <div className='description-container'>
-        <p className='Description'>Programador FullStack React/React-Native{<FaReact color='cyan' size={40} />}</p>
+        <p className='Description'>Programador FullStack <br />React/React-Native{<FaReact color='cyan' size={40} />}</p>
       </div>
 
-      <div className="cards-container">
+      <div 
+        className="cards-container" 
+        data-flickity-options='{ "wrapAround": true }'
+      >
         <Card name='Sobre mim' path='/About' />
         <Card name='Projetos' path='/Projects' />
         <Card name='Cursos' path='/Courses' />

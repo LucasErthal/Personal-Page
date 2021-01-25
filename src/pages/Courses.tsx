@@ -16,7 +16,7 @@ function Courses() {
       <Navbar />
 
       <div id="courses-page">
-        <h1>Cursos & Outros</h1>
+        <h1>Cursos & Eventos</h1>
 
         <Course 
           name='Dominando Banco de Dados com MySQL'

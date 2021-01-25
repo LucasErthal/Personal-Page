@@ -74,6 +74,10 @@
   #landing-page {
     width: 100vw;
   }
+
+  #landing-page .cards-container {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
