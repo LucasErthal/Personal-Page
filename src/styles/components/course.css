@@ -32,14 +32,15 @@
   font-size: 17px;
   text-align: center;
 
-  transition-property: border-width, border-color;
+  box-shadow: inset 0 0 0 cyan;
+  
+  transition-property: box-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 
 #course button:hover {
-  border-width: 5px;
-  border-color: #9F27EB;
+  box-shadow: inset 0 0em 2em cyan, 0 0em 0.5em cyan ;
 }
 
 #course img {

@@ -4,7 +4,10 @@
   display: flex;
   flex-direction: column;
   padding: 10% 3% 3% 3%;
-  background-color: #3C3F42;
+  /* background-color: rgba(60, 63, 66, 0.1); */
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 1em cyan;
   align-items: center;
 
   animation-name: drop;
@@ -37,23 +40,21 @@
 
   text-decoration: none;
   border-width: 0;
-  border-color:  #506BC2;
-  border-style: solid;
 
   color: white;
   font-size: 17px;
-  text-align: center;
+  text-align: center; 
 
-  transition-property: border-width, border-color;
+  box-shadow: inset 0 0 0 cyan;
+  
+  transition-property: box-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 
-  
 }
 
 #projects-page .projects-list button:hover {
-  border-width: 15px;
-  border-color: #9F27EB;
+  box-shadow: inset 0 0em 2em cyan, 0 0em 0.5em cyan ;
 }
 
 @media screen and (max-width: 1030px) {

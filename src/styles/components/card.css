@@ -14,18 +14,16 @@
 
   text-decoration: none;
   border-width: 0;
-  border-color:  #506BC2;
-  border-style: solid;
 
+  box-shadow: inset 0 0 0 cyan;
   
-  transition-property: border-width, border-color;
+  transition-property: box-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 
 #card:hover {
-  border-width: 20px;
-  border-color: #9F27EB;
+  box-shadow: inset 0 0em 2em cyan, 0 0em 0.5em cyan ;
 }
 
 #card p {

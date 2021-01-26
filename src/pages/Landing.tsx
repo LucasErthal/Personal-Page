@@ -7,9 +7,9 @@ import '../styles/pages/landing.css';
 function Landing() {
   return (
     <div id="landing-page">
-      <div className="cover">
+      {/* <div className="cover"> */}
         <img className="profile-image" src={profileImg} alt="" />
-      </div>
+      {/* </div> */}
 
       <h1 className='Name'>Lucas de Oliveira Mattos Erthal</h1>
       <div className='description-container'>
