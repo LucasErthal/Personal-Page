@@ -22,24 +22,27 @@
   justify-content: center;
 
   margin: 25px 0 10px 0;
+  
 
   text-decoration: none;
-  border-width: 0;
-  border-color:  #506BC2;
-  border-style: solid;
+  border: none;
 
   color: white;
   font-size: 17px;
   text-align: center;
+}
 
-  box-shadow: inset 0 0 0 cyan;
-  
+#course .abledButton {
+  background-color: #506BC2;
+
+  box-shadow: inset 0 0 1em cyan;
+
   transition-property: box-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 
-#course button:hover {
+#course .abledButton:hover {
   box-shadow: inset 0 0em 2em cyan, 0 0em 0.5em cyan ;
 }
 

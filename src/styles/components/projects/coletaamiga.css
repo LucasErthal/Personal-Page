@@ -16,6 +16,8 @@
   width:240px;
   align-self: center;
 
+  border-radius: 20px;
+
   margin: 3% 0% 3% 0%;
 }
 
@@ -36,7 +38,19 @@
   height: 100px;
   border-radius: 10px;
 
+  
   color: white;
   background-color: #9F27EB;
   text-decoration: none;
+
+  box-shadow: 0 0 2em magenta;
+  
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+
+}
+
+#coleta-amiga a:hover {
+  box-shadow: inset 0 0 2em magenta, 0 0 2em magenta ;
 }

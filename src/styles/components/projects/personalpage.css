@@ -32,4 +32,15 @@
   color: white;
   background-color: #9F27EB;
   text-decoration: none;
+
+  box-shadow: 0 0 2em magenta;
+  
+  transition-property: box-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+
+}
+
+#personal-page a:hover {
+  box-shadow: inset 0 0em 2em magenta, 0 0em 2em magenta ;
 }

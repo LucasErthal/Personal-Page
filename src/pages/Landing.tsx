@@ -1,4 +1,4 @@
-import Card from '../components/Card'
+import NavigationButton from '../components/NavigationButton'
 import profileImg from '../assets/images/Lucas_Perfil.jpg';
 import { FaReact } from "react-icons/fa";
 
@@ -18,9 +18,9 @@ function Landing() {
 
       <div 
         className="cards-container" >
-        <Card name='Sobre mim' path='/About' />
-        <Card name='Projetos' path='/Projects' />
-        <Card name='Cursos' path='/Courses' />
+        <NavigationButton name='Sobre mim' path='/About' />
+        <NavigationButton name='Projetos' path='/Projects' />
+        <NavigationButton name='Cursos' path='/Courses' />
       </div>
     </div>
   );

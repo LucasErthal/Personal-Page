@@ -14,7 +14,33 @@ function AboutMe() {
           <p>Instituição: Universidade Estácio de Sá</p>
           <p>Localidade: São Gonçalo - Rio de Janeiro</p>
           <p>Data de Nascimento: 25/11/1997</p>
-          <p>Whatsapp: (21) 98848-1631</p>
+        </div>
+
+        <div className="section">
+          <h2>Contatos</h2>
+
+          <p>Whatsapp: (21)98848-1631</p>
+          <p>E-mail: lucasdeveloper97@gmail.com</p>
+          <p>
+            Github: 
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href='https://github.com/LucasErthal'
+            >
+              https://github.com/LucasErthal
+            </a>
+          </p>
+          <p>
+            LinkedIn: 
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href='https://www.linkedin.com/in/lucas-de-oliveira-mattos-erthal-aa580517b/'
+            >
+              https://www.linkedin.com/in/lucas-de-oliveira-mattos-erthal-aa580517b/
+            </a>
+          </p>
         </div>
 
         <div className="section">

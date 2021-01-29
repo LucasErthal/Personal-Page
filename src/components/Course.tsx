@@ -25,10 +25,10 @@ const Course: React.FC<CourseProps> = ({ name, author, platform, hours, date, im
       <p>Carga horária: {hours}</p>
       <p>Data de conclusão: {date}</p>
 
-      <button 
+      <button
+        className={image? 'abledButton' : 'disabledButton'}
         onClick={ShowHideCertificate}
         disabled={image? false : true}
-        style={{ backgroundColor: image? '#506BC2' : 'grey' }}
       >
         Visualizar Certificado
       </button>
