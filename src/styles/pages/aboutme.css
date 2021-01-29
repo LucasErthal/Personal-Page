@@ -22,7 +22,18 @@
 }
 
 #aboutme-page .section a {
-  color: cyan;
+  display: flex;
+  color: white;
+  text-align: center;
+  flex-direction: row;
+}
+
+#aboutme-page .section .link {
+  display: flex;
+
+  flex-direction: row;
+
+  margin: 10px 0px;
 }
 
 #aboutme-page .section ul {

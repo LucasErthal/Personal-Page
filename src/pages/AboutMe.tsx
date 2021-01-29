@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Navbar from '../components/Navbar';
 import '../styles/pages/aboutme.css'
 
@@ -21,24 +22,39 @@ function AboutMe() {
 
           <p>Whatsapp: (21)98848-1631</p>
           <p>E-mail: lucasdeveloper97@gmail.com</p>
-          <p>
-            Github: 
-            <a
+          <p className='link'>
+            Github:
+              <a
               target="_blank"
               rel="noreferrer"
               href='https://github.com/LucasErthal'
             >
-              https://github.com/LucasErthal
+              <FaGithub
+                size={30}
+                color='white'
+                style={{
+                  boxShadow: '0 0 1em cyan',
+                  borderRadius: '50%',
+                  marginLeft: 5
+                }}
+              />
             </a>
           </p>
-          <p>
-            LinkedIn: 
+          <p className='link'>
+            LinkedIn:
             <a
               target="_blank"
               rel="noreferrer"
               href='https://www.linkedin.com/in/lucas-de-oliveira-mattos-erthal-aa580517b/'
             >
-              https://www.linkedin.com/in/lucas-de-oliveira-mattos-erthal-aa580517b/
+              <FaLinkedin 
+                size={30}
+                color='white'
+                style={{
+                  boxShadow: '0 0 1em cyan, inset 0 0 0.1em cyan',
+                  marginLeft: 5
+                }}
+              />
             </a>
           </p>
         </div>
