@@ -64,8 +64,8 @@ function AboutMe() {
 
           <p>
             Pretendo atuar como desenvolvedor Estagiário/Júnior afim de desenvolver
-            minha carreira como profissional, aprimorar meus conhecimentos sobre programação e
-            desenvolver práticas de trabalho com uma equipe igualmente focada.
+            minha carreira como profissional e aprimorar meus conhecimentos em desenvolvimento
+            web e mobile.
           </p>
         </div>
 
